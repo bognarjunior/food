@@ -6,7 +6,7 @@ export default function Section({name, size, label, action}: Promotion) {
       <Text className={`${size} font-semibold my-4 self-start`}>
         {name}
       </Text>
-      <Pressable>
+      <Pressable onPress={action}>
         <Text>{ label }</Text>
       </Pressable>
     </View>
