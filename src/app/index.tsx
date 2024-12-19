@@ -4,6 +4,7 @@ import Constants from 'expo-constants';
 import Banner from "../components/banner";
 import Search from "../components/search";
 import Section from "../components/section";
+import Trending from "../components/trending";
 
 const statusBarHeight = Constants.statusBarHeight;
 
@@ -22,6 +23,7 @@ export default function Index() {
         action={() => console.log("Clicou no botão")}
         size="text-2xl"
       />
+      <Trending />
       <Section 
         name="Famosos no MyFood"
         label="Veja todas"
