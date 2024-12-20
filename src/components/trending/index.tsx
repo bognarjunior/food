@@ -9,7 +9,6 @@ export default function Trending() {
     async function getFoods() {
       const response = await fetch("http://192.168.0.49:3333/foods");
       const data = await response.json();
-      console.log(data);
       setFoods(data);
     }
     getFoods();
