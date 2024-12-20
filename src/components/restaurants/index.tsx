@@ -9,7 +9,6 @@ export default function Restaurants() {
     async function getFoods() {
       const response = await fetch("http://192.168.0.49:3333/restaurants");
       const data = await response.json();
-      console.log(data);
       setRestaurants(data);
     }
     getFoods();

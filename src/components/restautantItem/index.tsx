@@ -1,4 +1,4 @@
-import { View, Text, Pressable, Image } from 'react-native'
+import { Text, Pressable, Image } from 'react-native'
 import React from 'react'
 import { Restaurant } from '@/src/interfaces/restaurant'
 
